@@ -15,6 +15,16 @@ margin: 0;
 background-image: linear-gradient(to bottom, #434058, rgb(64,66,88,0.7));
 }
 
+button{
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16;
+  font-weight: normal;
+}
+
 .bar{
 position: fixed;
 top: 0;
@@ -111,15 +121,6 @@ font-weight: normal;
     transform: scale(0.1, 1);
   }
 
-  button{
-    background-color: transparent;
-    border: none;
-    color: whitesmoke;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16;
-    font-weight: normal;
-  }
-
   /* 
   ========================
         demais botões
@@ -190,15 +191,6 @@ font-weight: normal;
   .btn-one:hover::after {
     opacity: 0; 
     transform: scale(0.1, 1);
-  }
-
-  button{
-    background-color: transparent;
-    border: none;
-    color: whitesmoke;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16;
-    font-weight: normal;
   }
 }
 
@@ -226,64 +218,6 @@ font-weight: normal;
     cursor: pointer;
   }
 
-  .btn-one {
-    color: #FFF;
-    transition: all 0.3s;
-    position: relative;
-  }
-  .btn-one button {
-    transition: all 0.3s;
-  }
-  .btn-one::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgba(255,255,255,0.5);
-    border-bottom-color: rgba(255,255,255,0.5);
-    transform: scale(0.1, 1);
-  }
-  .btn-one:hover button {
-    letter-spacing: 2px;
-  }
-  .btn-one:hover::before {
-    opacity: 1; 
-    transform: scale(1, 1); 
-  }
-  .btn-one::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255,255,255,0.1);
-  }
-  .btn-one:hover::after {
-    opacity: 0; 
-    transform: scale(0.1, 1);
-  }
-
-  button{
-    background-color: transparent;
-    border: none;
-    color: whitesmoke;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16;
-    font-weight: normal;
-  }
-
   /* 
   ========================
         demais botões
@@ -305,64 +239,6 @@ font-weight: normal;
     text-align: center;
     width: 250px;
     cursor: pointer;
-  }
-
-  .btn-one {
-    color: #FFF;
-    transition: all 0.3s;
-    position: relative;
-  }
-  .btn-one button {
-    transition: all 0.3s;
-  }
-  .btn-one::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgba(255,255,255,0.5);
-    border-bottom-color: rgba(255,255,255,0.5);
-    transform: scale(0.1, 1);
-  }
-  .btn-one:hover button {
-    letter-spacing: 2px;
-  }
-  .btn-one:hover::before {
-    opacity: 1; 
-    transform: scale(1, 1); 
-  }
-  .btn-one::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255,255,255,0.1);
-  }
-  .btn-one:hover::after {
-    opacity: 0; 
-    transform: scale(0.1, 1);
-  }
-
-  button{
-    background-color: transparent;
-    border: none;
-    color: whitesmoke;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16;
-    font-weight: normal;
   }
 }
 
